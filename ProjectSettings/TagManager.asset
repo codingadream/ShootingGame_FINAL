@@ -8,6 +8,7 @@ TagManager:
   - Blob of death
   - DeathBlob
   - SlimePit
+  - Bullet
   layers:
   - Default
   - TransparentFX
