@@ -25,8 +25,12 @@ public class Bullet : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
+            //Start dissolve effect
+            EnemyDissolve enemyDissolve = other.GetComponent<EnemyDissolve>();
+            enemyDissolve.StartDissolve();
+
             // Destroy the enemy
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
 
             // Destroy the bullet
             Destroy(gameObject);
