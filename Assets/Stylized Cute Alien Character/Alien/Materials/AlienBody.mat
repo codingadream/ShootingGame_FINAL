@@ -44,6 +44,7 @@ Material:
     m_Floats:
     - _Dissolve: 0
     - _Metallic: 0.041
+    - _QueueControl: 0
     - _Smoothness: 0.326
     m_Colors:
     - _BaseColor: {r: 0.36169454, g: 0.6037736, b: 0.40379524, a: 1}

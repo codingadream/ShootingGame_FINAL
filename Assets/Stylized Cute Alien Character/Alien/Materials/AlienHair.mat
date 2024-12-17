@@ -30,6 +30,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Dissolve: 0
+    - _QueueControl: 0
     m_Colors:
     - _BaseColor: {r: 0.9063317, g: 0.45059532, b: 0.190489, a: 1}
   m_BuildTextureStacks: []
