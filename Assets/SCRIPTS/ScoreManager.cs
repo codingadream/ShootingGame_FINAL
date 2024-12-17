@@ -30,6 +30,17 @@ public class ScoreManager : MonoBehaviour
         int minutes = Mathf.FloorToInt(RemainingTime / 60);
         int seconds = Mathf.FloorToInt(RemainingTime % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+        if (playerScore == 150)
+        {
+            // Load the Win screen
+            SceneManager.LoadScene("Win Screenn");
+        }
+        else if (playerScore != 150 && RemainingTime <= 0f)
+        {
+            // Load the Lose screen
+            SceneManager.LoadScene("LoseScreen");
+        }
     }
 
     public void IncreaseScore(int Increase) { 
